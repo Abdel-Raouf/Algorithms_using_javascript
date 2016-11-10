@@ -18,7 +18,7 @@ var sortedArray = insertion_Sort(initialArray);
 var passed = JSON.stringify(sortedArray)==JSON.stringify(solutionArray);
 console.log('Passed:' + passed);
 
-
+// Pseudo-code impl
 // for j = 2 to length[A]
 // 	do key = A[j]
 // 	>insert A[j] into the sorted sequence A[1 ... j-1]
