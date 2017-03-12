@@ -1,5 +1,5 @@
 function BuildMaxHeap(array){
-  // array.sort(function(a,b){return b-a})
+  //to get all the parent nodes as i / 2
   for(var i = Math.floor(array.length / 2); i >= 0; i--){
     maxHeapify(array, i);
   }
@@ -20,7 +20,7 @@ function maxHeapify(array, i) {
         var temp = array[i];
         array[i] = array[largest];
         array[largest] = temp;
-        maxHeapify(array, largest);
+        maxHeapify(array, largest); // enter recursion when there is a value in left or the right node that is bigger than the parent node
   }
 }
 
