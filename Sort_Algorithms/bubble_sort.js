@@ -22,3 +22,6 @@ console.log(initialArray);
 //meets a larger bubble on its way to the surface area or reach the surface itself. If a bubble meets a
 //bigger one on its way they swap each other. This process is repeated until no swaps are needed.
 //Hint: recommended for small arrays
+//Running time:
+  //worest-case: O(n^2)
+  //best-case: O(n)
