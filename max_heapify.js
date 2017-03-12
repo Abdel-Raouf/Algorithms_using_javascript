@@ -32,4 +32,7 @@ console.log(BuildMaxHeap(initialArray));
 Note: when you start with different structure on a heap you get different results so this depend on
 how child is insereted and bubbled-up(swapped with parents), which will stop as soon as it is smaller than its parent
 of which there can be multiple valid candidates for a position in a heap.
+
+Running Time: time to fix the relationships among the elements of size n rooted at given node i is big-theta of one
+while the childern's subtrees each have size at most 2n/3, therefore T(n) <= T(2n/3) + Big theta of one; that is T(N) = O(log(n))
 */
